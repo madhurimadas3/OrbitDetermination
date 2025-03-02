@@ -31,7 +31,7 @@ This project is part of the AEM 4301 course and focuses on designing an efficien
   - Approximate launch date: January 20, 2030
 
 ### 2.Alternative Trajectories
-####Juno-like trajectory (DSM + Earth Flyby)
+#### Juno-like trajectory (DSM + Earth Flyby)
 - Initial Launch Date: January 20, 2030
 - Deep Space Maneuver (DSM):
   - Performed 400 days after launch
@@ -41,7 +41,7 @@ This project is part of the AEM 4301 course and focuses on designing an efficien
   - Delta V change due to flyby: 6.6064 km/s
 - Jupiter Interception Date: November 1, 2033
 - Total Delta V: 7.6064 km/s
-####Europa Clipper-like trajectory (Mars + Earth Flyby)
+#### Europa Clipper-like trajectory (Mars + Earth Flyby)
 - Initial Launch Date: February 6, 2048
 - Mars Flyby:
   - Occurred 113 days after launch
@@ -52,7 +52,7 @@ This project is part of the AEM 4301 course and focuses on designing an efficien
   - Jupiter Orbit Interception Date: 1424 days after launch
   - Total Delta V: 6.22 km/s
 
-##Results
+## Results
 All results, including calculated Delta V values, trajectory plots, and mission timelines, are derived from the Orbit Determination (Design) Final Report. The data and findings in this README are directly based on the report's MATLAB simulations and theoretical calculations.
 
 ### Hohmann Transfer
@@ -67,7 +67,7 @@ All results, including calculated Delta V values, trajectory plots, and mission 
 ![Jupiter Interception of Europa Clipper Trajectory](JupiterInterceptionEuropa.png)
 
 
-##Comparison of Trajectories
+## Comparison of Trajectories
 - The Hohmann transfer serves as a baseline for comparison.
 - The Juno trajectory required a total Delta V of 7.6064 km/s.
 - The Europa Clipper trajectory required a total Delta V of 6.22 km/s, making it the more fuel-efficient option.
