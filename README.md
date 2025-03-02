@@ -1,5 +1,3 @@
-# OrbitDetermination
-
 ## Project Overview
 This project is part of the AEM 4301 course and focuses on designing an efficient transfer trajectory to Jupiter. The objective is to explore various mission design strategies, including planetary flybys, to minimize the required Delta V. The project takes inspiration from NASA's Juno and Europa Clipper missions, as well as ESA's JUICE mission.
 
