@@ -14,20 +14,61 @@ This project is part of the AEM 4301 course and focuses on designing an efficien
 - Simulations must be implemented using **MATLAB**, including the following key functionalities:
   - `spacecraft.m`: Simulates the trajectory of the spacecraft from Earth to Jupiter.
   - `flyby.m`: Computes and plots hyperbolic flyby trajectories.
+  - 'dsmtest.m': Implements the Juno-like trajectory with a deep space maneuver (DSM).
+  - 'europa_clipper_traj.m': Implements the Europa Clipper-like trajectory with planetary flybys but no DSM.
   - Calculation and verification of **Delta V maneuvers and vector diagrams**.
 
 ## Report Deliverables
 ### 1.Hohmann Transfer Analysis
-- Theoretical calculation of **Delta V**.
-- Departure hyperbola parameters.
-- Approximate and refined **launch dates**.
-- **Lead angle analysis**.
+- Lead Angle: 97.16°
+- Departure Hyperbola:
+  - Hyperbolic excess velocity: 8.79 km/s
+  - Semi-major axis: 10,729 km
+  - Eccentricity: 1.7257
+  - Turning angle: 125.4°
+- Launch Details:
+  - Hohmann transfer launch velocity: 8.62 km/s
+  - Approximate launch date: January 20, 2030
 
 ### 2.Alternative Trajectories
-- Sequential list of **Delta V maneuvers and planetary flybys**.
-- Detailed analysis of **flybys**, including hyperbolic trajectory parameters and plots.
-- **Total Delta V comparison** with the Hohmann transfer baseline.
+####Juno-like trajectory (DSM + Earth Flyby)
+- Initial Launch Date: January 20, 2030
+- Deep Space Maneuver (DSM):
+  - Performed 400 days after launch
+  - Delta V required: 1.0000 km/s
+- Earth Flyby:
+  - Performed 796 days after launch
+  - Delta V change due to flyby: 6.6064 km/s
+- Jupiter Interception Date: November 1, 2033
+- Total Delta V: 7.6064 km/s
+####Europa Clipper-like trajectory (Mars + Earth Flyby)
+- Initial Launch Date: February 6, 2048
+- Mars Flyby:
+  - Occurred 113 days after launch
+  - Hyperbolic excess velocity: 13.88 km/s
+- Earth Flyby:
+  - Occurred 776 days after launch
+  - Hyperbolic excess velocity: 15.18 km/s
+  - Jupiter Orbit Interception Date: 1424 days after launch
+  - Total Delta V: 6.22 km/s
 
+##Results
+All results, including calculated Delta V values, trajectory plots, and mission timelines, are derived from the Orbit Determination (Design) Final Report. The data and findings in this README are directly based on the report's MATLAB simulations and theoretical calculations.
+
+### Hohmann Transfer
+![Hohmann Transfer Trajectory]()
+
+### Juno-like Trajectory (DSM + Earth Flyby)
+![Juno Trajectory](images/juno_trajectory.png)
+
+### Europa Clipper-like Trajectory (Mars + Earth Flyby)
+![Europa Clipper Trajectory](images/europa_clipper_trajectory.png)
+
+
+##Comparison of Trajectories
+- The Hohmann transfer serves as a baseline for comparison.
+- The Juno trajectory required a total Delta V of 7.6064 km/s.
+- The Europa Clipper trajectory required a total Delta V of 6.22 km/s, making it the more fuel-efficient option.
 
 ## Group Members
 - **Madhurima Das**
