@@ -56,7 +56,7 @@ This project is part of the AEM 4301 course and focuses on designing an efficien
 All results, including calculated Delta V values, trajectory plots, and mission timelines, are derived from the Orbit Determination (Design) Final Report. The data and findings in this README are directly based on the report's MATLAB simulations and theoretical calculations.
 
 ### Hohmann Transfer
-![Hohmann Transfer Trajectory]()
+![Hohmann Transfer Trajectory](hohmannTransfer.png)
 
 ### Juno-like Trajectory (DSM + Earth Flyby)
 ![Juno Trajectory](images/juno_trajectory.png)
