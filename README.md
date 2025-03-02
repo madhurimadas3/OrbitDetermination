@@ -14,8 +14,8 @@ This project is part of the AEM 4301 course and focuses on designing an efficien
 - Simulations must be implemented using **MATLAB**, including the following key functionalities:
   - `spacecraft.m`: Simulates the trajectory of the spacecraft from Earth to Jupiter.
   - `flyby.m`: Computes and plots hyperbolic flyby trajectories.
-  - dsmtest.m: Implements the Juno-like trajectory with a deep space maneuver (DSM).
-  - europa_clipper_traj.m: Implements the Europa Clipper-like trajectory with planetary flybys but no DSM.
+  - [dsmtest.m](dsmtest.m): Implements the Juno-like trajectory with a deep space maneuver (DSM).
+  - [europa_clipper_traj.m](europa_clipper_traj.m): Implements the Europa Clipper-like trajectory with planetary flybys but no DSM.
   - Calculation and verification of **Delta V maneuvers and vector diagrams**.
 
 ## Report Deliverables
